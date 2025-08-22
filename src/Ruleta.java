@@ -18,8 +18,5 @@ public class Ruleta {
         System.out.println("2.- Apostar a Rojo/Negro");
         System.out.println("3.- Salir");
     }
-
-
-
 }
 
