@@ -8,6 +8,16 @@ public class Ruleta {
     public static Random rng = new Random();
     public static int[] numerosRojos =
             {1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36};
-}
 
+    public static void main(String[]args) {
+        menu();
+    }
+    public static void menu() {
+        System.out.println("==== Menu ====");
+        System.out.println("1.- Apostar a Par/Impar");
+        System.out.println("2.- Apostar a Rojo/Negro");
+        System.out.println("3.- Salir");
+    }
+
+}
 
