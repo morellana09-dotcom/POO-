@@ -13,6 +13,9 @@ public class Ruleta {
         menu();
     }
     public static void menu() {
+        mostrarMenu();
+    }
+    public static void mostrarMenu(){
         System.out.println("==== Menu ====");
         System.out.println("1.- Apostar a Par/Impar");
         System.out.println("2.- Apostar a Rojo/Negro");
