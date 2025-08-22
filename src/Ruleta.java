@@ -17,9 +17,10 @@ public class Ruleta {
     }
     public static void mostrarMenu(){
         System.out.println("==== Menu ====");
-        System.out.println("1.- Apostar a Par/Impar");
-        System.out.println("2.- Apostar a Rojo/Negro");
-        System.out.println("3.- Salir");
+        System.out.println("1.- Apostar a Par");
+        System.out.println("2.- Apostar a Impar");
+        System.out.println("3.- Apostar a Rojo");
+        System.out.println("4.- Apostar a Negro");
     }
 }
 
